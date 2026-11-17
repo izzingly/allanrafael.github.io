@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 20px auto;
+    max-width: 850px;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.secao-jogo {
+    text-align: center;
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid #333;
+    display: block;
+    margin: 10px auto;
+}
+
+.botoes {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
+/* Tabela de controles */
+table {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #eee;
+}
+
+ul {
+    padding-left: 20px;
+}

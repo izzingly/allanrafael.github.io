@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeway - Atari 2600</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html#galeria">&larr; Voltar ao portf&oacute;lio</a></p>
+
+    <header>
+        <h1>Freeway (Atari 2600)</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <section class="secao-jogo">
+            <h2>Jogo</h2>
+            <canvas id="gameCanvas" width="800" height="500"></canvas>
+            
+            <div class="botoes">
+                <button id="btnStart">Iniciar Partida</button>
+                <button id="btnReset">Reiniciar</button>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Controles do Teclado</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Jogador</th>
+                        <th>Mover para Cima</th>
+                        <th>Mover para Baixo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Player 1</strong></td>
+                        <td>Tecla W</td>
+                        <td>Tecla S</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Player 2</strong></td>
+                        <td>Seta para Cima (&uarr;)</td>
+                        <td>Seta para Baixo (&darr;)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>História do Jogo</h2>
+            <p>
+                <em>Freeway</em> é um jogo eletrônico lançado em 1981 pela Activision para o console Atari 2600, projetado por David Crane. Foi um dos primeiros jogos a trazer o conceito de travessia de pista em tráfego intenso com modo multiplayer no mesmo console.
+            </p>
+        </section>
+
+        <section>
+            <h2>Narrativa e Regras do Jogo</h2>
+            <p><strong>Narrativa:</strong> Dois pedestres tentam atravessar uma avenida movimentada de ônibus em velocidade.</p>
+            <p><strong>Jogabilidade e Regras:</strong></p>
+            <ul>
+                <li>Cada travessia completa até o topo da tela vale <strong>1 Ponto</strong>.</li>
+                <li>Se for atingido por um ônibus, o jogador volta para o início da pista.</li>
+                <li>A partida dura <strong>120 segundos (2 minutos)</strong>. Quem fizer mais pontos vence.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Equipe de Desenvolvimento</h2>
+            <ul>
+                <li><strong>Integrante 1:</strong> Daniel</li>
+                <li><strong>Integrante 2:</strong> Allan</li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    <script src="game.js"></script>
+</body>
+</html>
